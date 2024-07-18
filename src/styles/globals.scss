@@ -1,0 +1,11 @@
+/*===================  Dark theme =================*/
+.dark {
+    .app-brand span {
+        &:first-child {
+            display: none !important;
+        }
+        &:last-child {
+            display: inline-block !important;
+        }
+    }
+}

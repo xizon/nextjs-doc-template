@@ -1,0 +1,82 @@
+import InitMenu from '../src/components/InitMenu';
+
+<InitMenu />
+
+
+# Another Page
+
+```js filename="demo.js" {3} copy
+let a = 1;
+
+console.log(a);
+```
+
+
+# Collapsible Section
+
+
+<details>
+  <summary>Show Code</summary>
+```js"
+let a = 1;
+
+console.log(a);
+```
+</details>
+
+
+
+## Component 1
+
+import { useState } from "react";
+
+{/* Import CSS modules */}
+import styles from '../src/components/Counter/index.module.css'
+
+export const Counter = () => {
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <button onClick={() => setCount(count + 1)} className={styles.counter}>Clicked {count} times</button>
+    </div>
+  );
+};
+
+
+<Counter />
+
+
+## Component 2
+
+import MyCounter from '../src/components/Counter';
+
+<MyCounter />
+
+
+
+## External Component
+
+import Date from 'funda-ui/Date';
+
+import 'funda-ui/Date/index.css';
+
+<br />
+<Date
+    name="name"
+    label="Date"
+    value="2024-03-13"
+    type="date"
+    placeholder="yyyy/MM/dd"
+/>
+
+
+
+<Date
+    name="name"
+    label="Date & Time (no seconds)"
+    value="2024-03-14 10:22"
+    type="datetime-local"
+    placeholder="yyyy/MM/dd HH:mm"
+    truncateSeconds
+/>
+

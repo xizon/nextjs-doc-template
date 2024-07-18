@@ -1,0 +1,14 @@
+{
+    "index": "Introduction",
+    "another.html": "Another Page",
+    "about.html": {
+        "title": "About",
+        "type": "page"
+    },
+    "contact": {
+        "title": "Source ↗",
+        "type": "page",
+        "href": "https://github.com/xizon/nextjs-doc-template",
+        "newWindow": true
+    }
+}

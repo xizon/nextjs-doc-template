@@ -1,0 +1,51 @@
+{
+    "author": "UIUX Lab",
+    "email": "uiuxlab@gmail.com",
+    "name": "nextjs-doc-template",
+    "version": "0.0.1",
+    "description": " A documentation template based on NextJS and Nextra that exports pure HTML files.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xizon/nextjs-doc-template.git"
+    },
+    "keywords": [
+        "doc",
+        "template",
+        "react",
+        "documentation",
+        "next",
+        "nextra"
+    ],
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "export": "next build && node scripts/publishing-to-platform.js",
+        "export:fix": "node scripts/paths-static-page.js"
+    },
+    "dependencies": {
+        "axios": "^1.7.2",
+        "cors": "^2.8.5",
+        "funda-ui": "^4.1.368",
+        "next": "^14.2.3",
+        "nextra": "^2.13.4",
+        "nextra-theme-docs": "^2.13.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "18.7.13",
+        "@types/react": "18.0.17",
+        "@types/react-dom": "18.0.6",
+        "cross-env": "^7.0.3",
+        "eslint": "8.22.0",
+        "eslint-config-next": "^14.2.2",
+        "sass": "^1.54.5",
+        "typescript": "4.7.4"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/xizon/nextjs-doc-template/issues"
+    },
+    "homepage": "https://github.com/xizon/nextjs-doc-template#readme"
+}
