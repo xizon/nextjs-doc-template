@@ -6,7 +6,7 @@ const InitMenu = () => {
 
     useEffect(() => {
 
-        const sidebarMenu = document.querySelectorAll('.nextra-sidebar-container ul.nextra-menu-desktop > li');
+        const sidebarMenu = document.querySelectorAll('.nextra-sidebar-container ul.nextra-menu-desktop li');
         [].slice.call(sidebarMenu).forEach((node: any) => {
             const curLink = node.querySelector('a');
             if (curLink !== null) {

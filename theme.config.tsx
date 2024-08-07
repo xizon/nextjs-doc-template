@@ -10,7 +10,9 @@ const config: DocsThemeConfig = {
         link: 'https://github.com/xizon/nextjs-doc-template',
     },
     footer: {
-        text: 'Custom documentation',
+        text: (
+            <small>©2024 Custom Title.</small>
+        )
     },
     editLink: {
          text: 'Edit this page',
@@ -27,6 +29,9 @@ const config: DocsThemeConfig = {
             }
         }
     },
+    sidebar: {
+        defaultMenuCollapseLevel: 1
+    }
 }
 
 
